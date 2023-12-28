@@ -1,0 +1,11 @@
+from django import forms
+
+from .models import RetItens
+
+
+class RetItensForm(forms.ModelForm):
+    class Meta:
+        model = RetItens
+        fields = ('nfDev', 'observacao')
+
+

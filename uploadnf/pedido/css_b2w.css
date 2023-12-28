@@ -1,0 +1,140 @@
+<style type="text/css">
+	html {
+		width: 100%;
+		height: 100%;
+		margin:0;
+		padding:0;
+	}
+	body {
+		width: 100%;
+		height: 100%;
+		text-align: left;
+		font-family: Arial;
+		margin:0;
+		padding:0;
+	}
+	table {
+		width: 100%;
+	}
+	p {
+		text-align: left;
+	}
+	.vertical {
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	.remetente {
+		border-top: 1px solid #000;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		word-break: break-all;
+	}
+	.destinatario {
+		text-align: left;
+		border-top: 1px solid #000;
+		padding: 1px 1px 0 1px;
+	}
+	.destinatario p {
+		margin: 1px;
+	}
+	.remetente {
+		margin: 0;
+	}
+	.vertical .remetente {
+		padding-left: 5px;
+	}
+	.vertical {
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.servico-adicional {
+		font-weight: bold;
+	}
+	.quebra-pagina {
+		page-break-after: always;
+		clear: both;
+		display: block;
+		margin: 0;
+	}
+	td.tracking {
+		width: 80%;
+	}
+	.center,
+	div.tracking,
+	.servico-adicional {
+		text-align: center !important;
+	}
+	.info,
+	.center {
+		vertical-align: top;
+	}
+	.tracking,
+	.destinatario div:nth-child(2) {
+		margin-left: 10px;
+	}
+	.vertical .cod-barras-cep {
+		margin-left: 10px;
+		position: relative;
+		float: left;
+		max-width: 50%;
+	}
+	.destinatario-preenchido {
+		color: #fff;
+		background-color: #000;
+		margin-left: -5px;
+		padding: 3px 8px 1px 8px;
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact;
+	}
+	.obs-itens {
+		color: #424242;
+		padding: 3px 0px 8px 0px;
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+	}
+	.dotted-line {
+		width: 100%;
+		display: inline-block;
+	    border-bottom: 1px solid black;
+	    border-top: none;
+	}
+	.receiver {
+		margin: 0;
+		font-size: 12px;
+		padding-top: 2px;
+		overflow: hidden;
+	}
+	.padding-top-5 {
+		padding-top: 5px;
+	}
+	.mega-rota {
+		position: relative;
+		float: left;
+		width: 33%;
+		text-align: left;
+		margin-left: 5px;
+		word-break: break-all;
+	}
+	.rota {
+		float: right;
+		-webkit-transform: rotate(-90deg);
+		font-size: 20px;
+		position: absolute; right: 0px; bottom: 110px;
+	}
+	.inicial-destinatario {
+		margin-bottom: -15px;
+		margin-left: 75% !important;
+		overflow: auto;
+	}
+	hr {
+ 		color: #666;
+ 		border-bottom: 2px #666 dashed;
+ 		border-top: none;
+ 		margin: 6px 0px 6px 0px;
+ 	}
+</style>
