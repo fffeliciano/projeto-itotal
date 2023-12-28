@@ -1,4 +1,5 @@
 # testando versionamento itotal
+# recebido e devolvido (ubuntu)
 from django.db import models
 from datetime import datetime
 
